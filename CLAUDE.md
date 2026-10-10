@@ -62,10 +62,10 @@ before the first paint and flags an incoming unfold transition. **If you change 
 - **Unfold transition**: an internal `.html` link with `data-tx="analysis|informatik|home"` triggers it. Quick-access cards also have
   `data-tx-expand`: the card grows to full screen and shows `data-tx-label`. The next page then folds open in vertical strips.
   It's stored in `sessionStorage` and expires after 8 s. It respects `prefers-reduced-motion` and the back/forward cache.
-- **Theme**: system → light → dark cycle, saved in `localStorage.theme`, with a circular View Transition reveal.
+- **Theme**: **default is dark** for new visitors. The toggle cycles system → light → dark, saved in `localStorage.theme`, with a circular View Transition reveal.
   `--s-*` tokens are solid surfaces behind white text and are the same in both themes for contrast. `--c-*` tokens are
   theme-aware accents.
-- **Language**: `localStorage.lang`. The default is German; English if the browser is English. Switching re-renders in place with a crossfade.
+- **Language**: `localStorage.lang`. **Default is English** for new visitors (regardless of browser language). Switching re-renders in place with a crossfade.
 - **"This week"**: a course's `semesterStart` + 14 weeks decides whether a week is highlighted and auto-opened.
   Past courses show "Course finished".
 - **PDF preview**: in a modal iframe on desktop. On touch devices it opens the PDF in a new tab. `.ipynb` gets an "Open in Colab"

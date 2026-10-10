@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -17,8 +17,8 @@
 /* Boot: theme + language before first paint, unfold-transition flag, JS failsafe */
 (function(){var d=document.documentElement;d.classList.add('js');var t,l;
 try{t=localStorage.getItem('theme');l=localStorage.getItem('lang')}catch(e){}
-d.dataset.theme=t==='dark'||((!t||t==='system')&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';
-d.lang=l==='en'||l==='de'?l:((navigator.language||'de').slice(0,2).toLowerCase()==='en'?'en':'de');
+d.dataset.theme=t==='light'||(t==='system'&&!matchMedia('(prefers-color-scheme: dark)').matches)?'light':'dark';
+d.lang=l==='en'||l==='de'?l:'en';
 try{var x=sessionStorage.getItem('tx');if(x){var o=JSON.parse(x);if(Date.now()-o.t<8000){d.classList.add('tx-enter');d.style.setProperty('--tx-color',o.color)}else sessionStorage.removeItem('tx')}}catch(e){}
 setTimeout(function(){if(!d.classList.contains('ready')){d.classList.remove('js','tx-enter')}},4000)})();
 </script>
@@ -35,7 +35,7 @@ setTimeout(function(){if(!d.classList.contains('ready')){d.classList.remove('js'
   <section class="hero container">
     <div class="home-hero__top">
       <span class="eyebrow" data-i18n="home.eyebrow">ETH Zürich · D-MAVT · Teaching Assistant</span>
-      <h1 class="hero__title home-hero__title" data-split data-i18n-html="home.headline">Übungsstunden, die <em>fliessen</em>.</h1>
+      <h1 class="hero__title home-hero__title" data-split data-i18n-html="home.headline">Welcome <span><em>traveller</em>!</span></h1>
       <p class="hero__lead" data-reveal style="--d:.45s" data-i18n="home.lead">Alle Unterlagen aus meinen Übungsstunden.</p>
       <div class="hero__meta" id="status" data-reveal style="--d:.55s"></div>
     </div>

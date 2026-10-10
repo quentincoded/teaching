@@ -31,7 +31,7 @@ const STRINGS = {
 
     'home.title': 'Quentin Türler · Teaching',
     'home.eyebrow': 'ETH Zürich · D-MAVT · Teaching Assistant',
-    'home.headline': 'Übungsstunden, die <em>fliessen</em>.',
+    'home.headline': 'Willkommen, <span><em>Reisender</em>!</span>',
     'home.lead': 'Alle Unterlagen aus meinen Übungsstunden: Notizen, Serien, Lösungen, Zusammenfassungen und alte Prüfungen.',
     'home.next.none': 'Keine anstehenden Übungsstunden',
     'home.semweek': '{sem} · Semesterwoche {w}',
@@ -214,7 +214,7 @@ const STRINGS = {
 
     'home.title': 'Quentin Türler · Teaching',
     'home.eyebrow': 'ETH Zurich · D-MAVT · Teaching Assistant',
-    'home.headline': 'Exercise classes that <em>flow</em>.',
+    'home.headline': 'Welcome <span><em>traveller</em>!</span>',
     'home.lead': 'All the materials from my exercise classes: notes, problem sets, solutions, summaries and past exams.',
     'home.next.none': 'No upcoming exercise classes',
     'home.semweek': '{sem} · semester week {w}',

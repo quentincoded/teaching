@@ -31,7 +31,7 @@ export function codeBg(canvas) {
       accent2: cs.getPropertyValue('--accent-2').trim(),
       head: dark ? '#e9e5ff' : '#1b1250',
       fade: dark ? 0.11 : 0.16,
-      a: dark ? 0.7 : 0.45,
+      a: dark ? 0.38 : 0.26,
     };
     ctx.fillStyle = col.bg;
     ctx.fillRect(0, 0, W, H);
@@ -103,7 +103,7 @@ export function codeBg(canvas) {
       if (life <= 0) { terms.splice(i, 1); continue; }
       const txt = tm.s.slice(0, shown);
       const wpx = ctx.measureText(tm.s).width;
-      ctx.globalAlpha = 0.9 * life;
+      ctx.globalAlpha = 0.5 * life;
       ctx.fillStyle = col.bg;
       ctx.fillRect(tm.x - 8, tm.y - fs - 4, wpx + 30, fs + 14);
       ctx.fillStyle = col.accent;

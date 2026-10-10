@@ -27,7 +27,7 @@ export function themeColor(theme) {
    Theme
    ========================================================================= */
 const darkMQ = matchMedia('(prefers-color-scheme: dark)');
-function themePref() { return store.get('theme') || 'system'; }
+function themePref() { return store.get('theme') || 'dark'; }
 function resolveTheme(pref) { return pref === 'dark' || (pref === 'system' && darkMQ.matches) ? 'dark' : 'light'; }
 function applyTheme() {
   document.documentElement.dataset.theme = resolveTheme(themePref());
@@ -704,8 +704,11 @@ function bindSearch() {
    ========================================================================= */
 function initAnalytics(site) {
   const a = site.analytics || {};
-  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.protocol === 'file:') return;
+  // Local visits are not counted; add ?gctest to the URL to count one on purpose (for testing the setup)
+  const test = new URLSearchParams(location.search).has('gctest');
+  if (!test && (location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.protocol === 'file:')) return;
   if (a.goatcounter) {
+    if (test) window.goatcounter = { allow_local: true };
     const s = document.createElement('script');
     s.async = true;
     s.src = 'https://gc.zgo.at/count.js';
