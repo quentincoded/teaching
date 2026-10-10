@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<base href="/teaching/">
+<title>404 · Quentin Türler</title>
+<meta name="description" content="Seite nicht gefunden.">
+<meta name="author" content="Quentin Türler">
+<meta name="theme-color" content="#f4f3ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#07080d" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="404 · Quentin Türler">
+<meta property="og:description" content="Seite nicht gefunden.">
+<meta property="og:image" content="images/portrait.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<script>
+/* Boot: theme + language before first paint, unfold-transition flag, JS failsafe */
+(function(){var d=document.documentElement;d.classList.add('js');var t,l;
+try{t=localStorage.getItem('theme');l=localStorage.getItem('lang')}catch(e){}
+d.dataset.theme=t==='dark'||((!t||t==='system')&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';
+d.lang=l==='en'||l==='de'?l:((navigator.language||'de').slice(0,2).toLowerCase()==='en'?'en':'de');
+try{var x=sessionStorage.getItem('tx');if(x){var o=JSON.parse(x);if(Date.now()-o.t<8000){d.classList.add('tx-enter');d.style.setProperty('--tx-color',o.color)}else sessionStorage.removeItem('tx')}}catch(e){}
+setTimeout(function(){if(!d.classList.contains('ready')){d.classList.remove('js','tx-enter')}},4000)})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@400..700&family=JetBrains+Mono:wght@400..600&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+<script type="module" src="assets/js/pages/notfound.js"></script>
+</head>
+<body data-page="home" data-title-key="404.title">
+<a class="skip-link" href="#main" data-i18n="skip">Zum Inhalt springen</a>
+<canvas class="bg-canvas bg-canvas--soft" id="bg" aria-hidden="true"></canvas>
+<main id="main">
+  <section class="notfound">
+    <div style="display:grid;gap:24px;justify-items:center">
+      <h1 data-split>404</h1>
+      <p class="hero__lead" data-reveal style="--d:.3s" data-i18n="404.text">Diese Seite ist wohl im Fourier-Raum verschwunden.</p>
+      <a class="btn" href="index.html" data-reveal style="--d:.45s"><span data-i18n="404.back">Zur Startseite</span></a>
+    </div>
+  </section>
+</main>
+</body>
+</html>

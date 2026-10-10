@@ -1,0 +1,1212 @@
+{
+  "_comment": "Single source of truth for all materials. Paths are relative to the site root. *_en fields = English UI text. See CLAUDE.md.",
+  "courses": [
+    {
+      "id": "analysis3",
+      "title": "Analysis III",
+      "semester": "HS 2024",
+      "language": "de",
+      "links": [
+        {
+          "label": "Moodle",
+          "url": "https://moodle-app2.let.ethz.ch/course/view.php?id=23703",
+          "label_en": "Moodle"
+        },
+        {
+          "label": "Vorlesungsaufzeichnungen 2023",
+          "url": "https://video.ethz.ch/lectures/d-math/2023/autumn/401-0363-10L/e6826328-94dd-4211-aa02-9a1d7ea7b83a.html",
+          "note": "ETH login",
+          "label_en": "Lecture recordings 2023"
+        }
+      ],
+      "resources": [
+        {
+          "label": "Skript (Iozzi)",
+          "kind": "script",
+          "path": "sources/analysis3/script/analysis3-script-iozzi.pdf",
+          "label_en": "Lecture script (Iozzi)"
+        },
+        {
+          "label": "ZF 1",
+          "kind": "summary",
+          "path": "sources/analysis3/summaries/zf-1.pdf",
+          "label_en": "Summary 1"
+        },
+        {
+          "label": "ZF 2 (E. Besana)",
+          "kind": "summary",
+          "path": "sources/analysis3/summaries/zf-besana.pdf",
+          "label_en": "Summary 2 (E. Besana)"
+        },
+        {
+          "label": "ZF 3 (L. Auspurg)",
+          "kind": "summary",
+          "path": "sources/analysis3/summaries/zf-auspurg.pdf",
+          "label_en": "Summary 3 (L. Auspurg)"
+        },
+        {
+          "label": "ZF 4 (Dominic)",
+          "kind": "summary",
+          "path": "sources/analysis3/summaries/zf-dominic.pdf",
+          "label_en": "Summary 4 (Dominic)"
+        },
+        {
+          "label": "PDE-Rezept (Steivan)",
+          "kind": "summary",
+          "path": "sources/analysis3/summaries/pde-rezept-steivan.pdf",
+          "label_en": "PDE recipe (Steivan)"
+        }
+      ],
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Laplace-Transformationen Basics",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week01-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week01-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 1",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week01-series.pdf",
+              "label_en": "Problem set 1"
+            },
+            {
+              "label": "Lösung 1",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week01-solution.pdf",
+              "label_en": "Solution 1"
+            }
+          ],
+          "links": [],
+          "topic_en": "Laplace transform basics"
+        },
+        {
+          "week": 2,
+          "topic": "t-/s-Shifts | Ableitungen",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week02-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week02-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Notizen clean",
+              "kind": "notes-clean",
+              "path": "sources/analysis3/weeks/week02-notes-clean.pdf",
+              "label_en": "Clean notes"
+            },
+            {
+              "label": "Serie 2",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week02-series.pdf",
+              "label_en": "Problem set 2"
+            },
+            {
+              "label": "Lösung 2",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week02-solution.pdf",
+              "label_en": "Solution 2"
+            }
+          ],
+          "links": [],
+          "topic_en": "t-/s-shifts | Derivatives"
+        },
+        {
+          "week": 3,
+          "topic": "Faltung (Convolution) | Dirac-Delta",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week03-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week03-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 3",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week03-series.pdf",
+              "label_en": "Problem set 3"
+            },
+            {
+              "label": "Lösung 3",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week03-solution.pdf",
+              "label_en": "Solution 3"
+            }
+          ],
+          "links": [],
+          "topic_en": "Convolution | Dirac delta"
+        },
+        {
+          "week": 4,
+          "topic": "Periodizität | Intro Fourier-Reihen",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week04-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week04-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 4",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week04-series.pdf",
+              "label_en": "Problem set 4"
+            },
+            {
+              "label": "Lösung 4",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week04-solution.pdf",
+              "label_en": "Solution 4"
+            }
+          ],
+          "links": [],
+          "topic_en": "Periodicity | Intro to Fourier series"
+        },
+        {
+          "week": 5,
+          "topic": "Komplexe Fourier-Reihen",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week05-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week05-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Notizen clean",
+              "kind": "notes-clean",
+              "path": "sources/analysis3/weeks/week05-notes-clean.pdf",
+              "label_en": "Clean notes"
+            },
+            {
+              "label": "Serie 5",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week05-series.pdf",
+              "label_en": "Problem set 5"
+            },
+            {
+              "label": "Lösung 5",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week05-solution.pdf",
+              "label_en": "Solution 5"
+            }
+          ],
+          "links": [],
+          "topic_en": "Complex Fourier series"
+        },
+        {
+          "week": 6,
+          "topic": "Fourier-Transformation | Fourier-Integral",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week06-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week06-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Notizen clean",
+              "kind": "notes-clean",
+              "path": "sources/analysis3/weeks/week06-notes-clean.pdf",
+              "label_en": "Clean notes"
+            },
+            {
+              "label": "Serie 6",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week06-series.pdf",
+              "label_en": "Problem set 6"
+            },
+            {
+              "label": "Lösung 6",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week06-solution.pdf",
+              "label_en": "Solution 6"
+            }
+          ],
+          "links": [],
+          "topic_en": "Fourier transform | Fourier integral"
+        },
+        {
+          "week": 7,
+          "topic": "Diskrete Fourier-Transformation | DFT / FFT",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week07-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week07-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Notizen clean",
+              "kind": "notes-clean",
+              "path": "sources/analysis3/weeks/week07-notes-clean.pdf",
+              "label_en": "Clean notes"
+            },
+            {
+              "label": "Serie 7",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week07-series.pdf",
+              "label_en": "Problem set 7"
+            },
+            {
+              "label": "Lösung 7",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week07-solution.pdf",
+              "label_en": "Solution 7"
+            }
+          ],
+          "links": [],
+          "topic_en": "Discrete Fourier transform | DFT / FFT"
+        },
+        {
+          "week": 8,
+          "topic": "Intro PDEs",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week08-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week08-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 8",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week08-series.pdf",
+              "label_en": "Problem set 8"
+            },
+            {
+              "label": "Lösung 8",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week08-solution.pdf",
+              "label_en": "Solution 8"
+            }
+          ],
+          "links": [
+            {
+              "label": "Recording",
+              "url": "https://youtu.be/GTxppZ7NfcM",
+              "label_en": "Recording"
+            }
+          ],
+          "topic_en": "Intro to PDEs"
+        },
+        {
+          "week": 9,
+          "topic": "1D-Wellengleichung",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week09-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week09-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Notizen clean",
+              "kind": "notes-clean",
+              "path": "sources/analysis3/weeks/week09-notes-clean.pdf",
+              "label_en": "Clean notes"
+            },
+            {
+              "label": "Serie 9",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week09-series.pdf",
+              "label_en": "Problem set 9"
+            },
+            {
+              "label": "Lösung 9",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week09-solution.pdf",
+              "label_en": "Solution 9"
+            }
+          ],
+          "links": [],
+          "topic_en": "1D wave equation"
+        },
+        {
+          "week": 10,
+          "topic": "d'Alembert",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week10-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week10-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 10",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week10-series.pdf",
+              "label_en": "Problem set 10"
+            },
+            {
+              "label": "Lösung 10",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week10-solution.pdf",
+              "label_en": "Solution 10"
+            }
+          ],
+          "links": [],
+          "topic_en": "d'Alembert"
+        },
+        {
+          "week": 11,
+          "topic": "1D-Wärmeleitungsgleichung | Laplace-Gleichung",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week11-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week11-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 11",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week11-series.pdf",
+              "label_en": "Problem set 11"
+            },
+            {
+              "label": "Lösung 11",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week11-solution.pdf",
+              "label_en": "Solution 11"
+            }
+          ],
+          "links": [],
+          "topic_en": "1D heat equation | Laplace equation"
+        },
+        {
+          "week": 12,
+          "topic": "WLG auf unendlichem Stab | WLG mit Fourier",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week12-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week12-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 12",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week12-series.pdf",
+              "label_en": "Problem set 12"
+            },
+            {
+              "label": "Lösung 12",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week12-solution.pdf",
+              "label_en": "Solution 12"
+            }
+          ],
+          "links": [],
+          "topic_en": "Heat equation on an infinite rod | Heat equation with Fourier"
+        },
+        {
+          "week": 13,
+          "topic": "Dirichlet auf Kreis | Poisson | Neumann",
+          "files": [
+            {
+              "label": "Notizen leer",
+              "kind": "notes-blank",
+              "path": "sources/analysis3/weeks/week13-notes-blank.pdf",
+              "label_en": "Blank notes"
+            },
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week13-notes-full.pdf",
+              "label_en": "Complete notes"
+            },
+            {
+              "label": "Serie 13",
+              "kind": "exercise",
+              "path": "sources/analysis3/weeks/week13-series.pdf",
+              "label_en": "Problem set 13"
+            },
+            {
+              "label": "Lösung 13",
+              "kind": "solution",
+              "path": "sources/analysis3/weeks/week13-solution.pdf",
+              "label_en": "Solution 13"
+            }
+          ],
+          "links": [],
+          "topic_en": "Dirichlet on a disk | Poisson | Neumann"
+        },
+        {
+          "week": 14,
+          "topic": "Recap",
+          "files": [
+            {
+              "label": "Notizen komplett",
+              "kind": "notes-full",
+              "path": "sources/analysis3/weeks/week14-notes-full.pdf",
+              "label_en": "Complete notes"
+            }
+          ],
+          "links": [],
+          "topic_en": "Recap"
+        }
+      ],
+      "exams": [
+        {
+          "label": "Winter 2007",
+          "id": "2007-winter",
+          "exam": "sources/analysis3/exams/2007-winter.pdf",
+          "solution": "sources/analysis3/exams/2007-winter-solution.pdf",
+          "label_en": "Winter 2007"
+        },
+        {
+          "label": "Winter 2008",
+          "id": "2008-winter",
+          "exam": "sources/analysis3/exams/2008-winter.pdf",
+          "solution": "sources/analysis3/exams/2008-winter-solution.pdf",
+          "label_en": "Winter 2008"
+        },
+        {
+          "label": "Sommer 2009",
+          "id": "2009-summer",
+          "exam": "sources/analysis3/exams/2009-summer.pdf",
+          "solution": "sources/analysis3/exams/2009-summer-solution.pdf",
+          "label_en": "Summer 2009"
+        },
+        {
+          "label": "Sommer 2013",
+          "id": "2013-summer",
+          "exam": "sources/analysis3/exams/2013-summer.pdf",
+          "solution": "sources/analysis3/exams/2013-summer-solution.pdf",
+          "label_en": "Summer 2013"
+        },
+        {
+          "label": "Winter 2014",
+          "id": "2014-winter",
+          "exam": "sources/analysis3/exams/2014-winter.pdf",
+          "solution": "sources/analysis3/exams/2014-winter-solution.pdf",
+          "label_en": "Winter 2014"
+        },
+        {
+          "label": "Winter 2015",
+          "id": "2015-winter",
+          "exam": "sources/analysis3/exams/2015-winter.pdf",
+          "solution": "sources/analysis3/exams/2015-winter-solution.pdf",
+          "label_en": "Winter 2015"
+        },
+        {
+          "label": "Winter 2016",
+          "id": "2016-winter",
+          "exam": "sources/analysis3/exams/2016-winter.pdf",
+          "solution": "sources/analysis3/exams/2016-winter-solution.pdf",
+          "label_en": "Winter 2016"
+        },
+        {
+          "label": "Sommer 2017",
+          "id": "2017-summer",
+          "exam": "sources/analysis3/exams/2017-summer.pdf",
+          "solution": "sources/analysis3/exams/2017-summer-solution.pdf",
+          "label_en": "Summer 2017"
+        },
+        {
+          "label": "Winter 2017",
+          "id": "2017-winter",
+          "exam": "sources/analysis3/exams/2017-winter.pdf",
+          "solution": "sources/analysis3/exams/2017-winter-solution.pdf",
+          "label_en": "Winter 2017"
+        },
+        {
+          "label": "Sommer 2018",
+          "id": "2018-summer",
+          "exam": "sources/analysis3/exams/2018-summer.pdf",
+          "solution": "sources/analysis3/exams/2018-summer-solution.pdf",
+          "label_en": "Summer 2018"
+        },
+        {
+          "label": "Winter 2018",
+          "id": "2018-winter",
+          "exam": "sources/analysis3/exams/2018-winter.pdf",
+          "solution": "sources/analysis3/exams/2018-winter-solution.pdf",
+          "label_en": "Winter 2018"
+        },
+        {
+          "label": "Sommer 2019",
+          "id": "2019-summer",
+          "exam": "sources/analysis3/exams/2019-summer.pdf",
+          "solution": "sources/analysis3/exams/2019-summer-solution.pdf",
+          "label_en": "Summer 2019"
+        },
+        {
+          "label": "Winter 2019",
+          "id": "2019-winter",
+          "exam": "sources/analysis3/exams/2019-winter.pdf",
+          "solution": "sources/analysis3/exams/2019-winter-solution.pdf",
+          "label_en": "Winter 2019"
+        },
+        {
+          "label": "Sommer 2020",
+          "id": "2020-summer",
+          "exam": "sources/analysis3/exams/2020-summer.pdf",
+          "solution": "sources/analysis3/exams/2020-summer-solution.pdf",
+          "label_en": "Summer 2020"
+        },
+        {
+          "label": "Winter 2020",
+          "id": "2020-winter",
+          "exam": "sources/analysis3/exams/2020-winter.pdf",
+          "solution": "sources/analysis3/exams/2020-winter-solution.pdf",
+          "label_en": "Winter 2020"
+        },
+        {
+          "label": "Sommer 2021",
+          "id": "2021-summer",
+          "exam": "sources/analysis3/exams/2021-summer.pdf",
+          "solution": "sources/analysis3/exams/2021-summer-solution.pdf",
+          "label_en": "Summer 2021"
+        },
+        {
+          "label": "Winter 2021",
+          "id": "2021-winter",
+          "exam": null,
+          "solution": "sources/analysis3/exams/2021-winter-solution.pdf",
+          "label_en": "Winter 2021"
+        },
+        {
+          "label": "Sommer 2022",
+          "id": "2022-summer",
+          "exam": "sources/analysis3/exams/2022-summer.pdf",
+          "solution": "sources/analysis3/exams/2022-summer-solution.pdf",
+          "label_en": "Summer 2022"
+        },
+        {
+          "label": "Winter 2022",
+          "id": "2022-winter",
+          "exam": "sources/analysis3/exams/2022-winter.pdf",
+          "solution": "sources/analysis3/exams/2022-winter-solution.pdf",
+          "label_en": "Winter 2022"
+        },
+        {
+          "label": "Sommer 2023",
+          "id": "2023-summer",
+          "exam": null,
+          "solution": "sources/analysis3/exams/2023-summer-solution.pdf",
+          "label_en": "Summer 2023"
+        },
+        {
+          "label": "Winter 2023",
+          "id": "2023-winter",
+          "exam": "sources/analysis3/exams/2023-winter.pdf",
+          "solution": "sources/analysis3/exams/2023-winter-solution.pdf",
+          "label_en": "Winter 2023"
+        },
+        {
+          "label": "Sommer 2024",
+          "id": "2024-summer",
+          "exam": "sources/analysis3/exams/2024-summer.pdf",
+          "solution": "sources/analysis3/exams/2024-summer-solution.pdf",
+          "label_en": "Summer 2024"
+        },
+        {
+          "label": "Winter 2024",
+          "id": "2024-winter",
+          "exam": "sources/analysis3/exams/2024-winter.pdf",
+          "solution": "sources/analysis3/exams/2024-winter-solution.pdf",
+          "label_en": "Winter 2024"
+        },
+        {
+          "label": "Mock-Prüfung 2022",
+          "id": "mock-2022",
+          "exam": "sources/analysis3/exams/mock-2022.pdf",
+          "solution": "sources/analysis3/exams/mock-2022-solution.pdf",
+          "label_en": "Mock exam 2022"
+        },
+        {
+          "label": "Mock-Prüfung 2024",
+          "id": "mock-2024",
+          "exam": "sources/analysis3/exams/mock-2024.pdf",
+          "solution": "sources/analysis3/exams/mock-2024-solution.pdf",
+          "label_en": "Mock exam 2024"
+        }
+      ],
+      "title_en": "Analysis III",
+      "order": 1,
+      "theme": "analysis",
+      "motif": "fourier",
+      "semesterStart": "2024-09-16",
+      "tagline": {
+        "de": "Laplace, Fourier und partielle Differentialgleichungen.",
+        "en": "Laplace, Fourier and partial differential equations."
+      },
+      "description": {
+        "de": "Meine Übungsstunde zu Analysis III für D-MAVT: von der Laplace-Transformation über Fourier-Reihen bis zu Wellen-, Wärme- und Laplace-Gleichung.",
+        "en": "My Analysis III exercise class for D-MAVT: from the Laplace transform through Fourier series to the wave, heat and Laplace equations."
+      },
+      "sessions": [
+        {
+          "type": "exercise",
+          "de": "Mittwoch 16–18 Uhr",
+          "en": "Wednesday 4–6 pm",
+          "room": "ML E12"
+        },
+        {
+          "type": "studycenter",
+          "de": "Donnerstag 18–20 Uhr",
+          "en": "Thursday 6–8 pm",
+          "room": "HG F7"
+        }
+      ],
+      "semester_en": "Fall 2024"
+    },
+    {
+      "id": "informatik2",
+      "title": "Informatik II",
+      "semester": "FS 2025",
+      "language": "de",
+      "links": [
+        {
+          "label": "Departement-Seite",
+          "url": "https://lec.inf.ethz.ch/mavt/informatik2/2025/",
+          "label_en": "Department page"
+        },
+        {
+          "label": "Code Expert",
+          "url": "https://expert.ethz.ch/enrolled/SS25/mavt2/exercises",
+          "label_en": "Code Expert"
+        },
+        {
+          "label": "Vorlesungsaufzeichnungen 2025",
+          "url": "https://video.ethz.ch/lectures/d-infk/2025/spring/252-0833-00L.html",
+          "note": "ETH login",
+          "label_en": "Lecture recordings 2025"
+        },
+        {
+          "label": "Prüfungssammlung",
+          "url": "https://lec.inf.ethz.ch/past_exams/#exams",
+          "label_en": "Exam collection"
+        }
+      ],
+      "resources": [
+        {
+          "label": "ZF Kirsanova & Ntakoulas (2023)",
+          "kind": "summary",
+          "path": "sources/informatik2/summaries/zf-2023-kirsanova-ntakoulas.pdf",
+          "label_en": "Summary Kirsanova & Ntakoulas (2023)"
+        },
+        {
+          "label": "ZF Lotzer (2023)",
+          "kind": "summary",
+          "path": "sources/informatik2/summaries/zf-2023-lotzer.pdf",
+          "label_en": "Summary Lotzer (2023)"
+        },
+        {
+          "label": "ZF Lehmann, Steinhauser, Lotzer (2023)",
+          "kind": "summary",
+          "path": "sources/informatik2/summaries/zf-2023-lehmann-steinhauser-lotzer.pdf",
+          "label_en": "Summary Lehmann, Steinhauser, Lotzer (2023)"
+        },
+        {
+          "label": "PVK-Skript (J. Schneider, 2023)",
+          "kind": "script",
+          "path": "sources/informatik2/script/pvk-skript-2023-schneider.pdf",
+          "label_en": "PVK script (J. Schneider, 2023)"
+        }
+      ],
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Einführung in Python",
+          "files": [
+            {
+              "label": "Intro-Slides",
+              "kind": "slides",
+              "path": "sources/informatik2/weeks/week01-intro-slides.pdf",
+              "label_en": "Intro slides"
+            },
+            {
+              "label": "Installationsanleitung",
+              "kind": "guide",
+              "path": "sources/informatik2/weeks/week01-how-to-install.pdf",
+              "label_en": "How to install"
+            },
+            {
+              "label": "Jupyter-Notebook: Durchschnitt von drei",
+              "label_en": "Jupyter notebook: average of three",
+              "kind": "notebook",
+              "path": "sources/informatik2/weeks/week01-avg-of-three.ipynb"
+            }
+          ],
+          "links": [
+            {
+              "label": "Von C++ zu Python",
+              "url": "https://lec.inf.ethz.ch/tutorials/cpp-to-py/#ch1-about-this-tutorial",
+              "label_en": "From C++ to Python"
+            }
+          ],
+          "topic_en": "Intro to Python"
+        },
+        {
+          "week": 2,
+          "topic": "Ranges, Slicing, Container",
+          "files": [
+            {
+              "label": "Slides",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week02-slides-blank.pdf",
+              "label_en": "Slides"
+            }
+          ],
+          "links": [],
+          "topic_en": "Ranges, Slicing, Containers"
+        },
+        {
+          "week": 3,
+          "topic": "List Comprehension | NumPy",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week03-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week03-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [],
+          "topic_en": "List Comprehension | NumPy"
+        },
+        {
+          "week": 4,
+          "topic": "Matplotlib | Pandas",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week04-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week04-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            },
+            {
+              "label": "Jupyter-Notebook Plotting (ZIP)",
+              "label_en": "Plotting Jupyter notebook (ZIP)",
+              "kind": "notebook",
+              "path": "sources/informatik2/weeks/week04-plotting-notebook.zip"
+            }
+          ],
+          "links": [],
+          "topic_en": "Matplotlib | Pandas"
+        },
+        {
+          "week": 5,
+          "topic": "Klassen | Funktionale Programmierung | Lambda",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week05-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week05-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [],
+          "topic_en": "Classes | Functional Programming | Lambda"
+        },
+        {
+          "week": 6,
+          "topic": "Sortieren | Laufzeitanalyse I",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week06-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week06-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [
+            {
+              "label": "Bubble Sort visualisiert",
+              "url": "https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/",
+              "label_en": "Bubble Sort visualized"
+            },
+            {
+              "label": "Insertion Sort visualisiert",
+              "url": "https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/",
+              "label_en": "Insertion Sort visualized"
+            }
+          ],
+          "topic_en": "Sorting | Runtime Analysis I"
+        },
+        {
+          "week": 7,
+          "topic": "Teleskopieren | Mergesort",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week07-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week07-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            },
+            {
+              "label": "Trick für rekursive Laufzeit",
+              "kind": "extra",
+              "path": "sources/informatik2/weeks/week07-recursive-runtime-trick.pdf",
+              "label_en": "Recursive runtime trick"
+            },
+            {
+              "label": "Klassen-Anmerkung",
+              "kind": "extra",
+              "path": "sources/informatik2/weeks/week07-classes-note.pdf",
+              "label_en": "Note on classes"
+            }
+          ],
+          "links": [
+            {
+              "label": "Mergesort visualisiert",
+              "url": "https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/",
+              "label_en": "Mergesort visualized"
+            }
+          ],
+          "topic_en": "Telescoping | Mergesort"
+        },
+        {
+          "week": 8,
+          "topic": "Binärbäume und Heaps",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week08-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week08-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [
+            {
+              "label": "Knoten aus Binärbaum löschen",
+              "url": "https://www.inf-schule.de/algorithmen/standardalgorithmen/suchbaeume/binaerbaum/andere/loeschen",
+              "label_en": "Deleting nodes from a binary tree"
+            },
+            {
+              "label": "Heaps visualisiert",
+              "url": "https://www.chrislaux.com/de/heap",
+              "label_en": "Heaps visualized"
+            }
+          ],
+          "topic_en": "Binary trees and heaps"
+        },
+        {
+          "week": 9,
+          "topic": "Dynamische Programmierung I",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week09-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week09-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [],
+          "topic_en": "Dynamic programming I"
+        },
+        {
+          "week": 10,
+          "topic": "Dynamische Programmierung II",
+          "files": [
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week10-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [],
+          "topic_en": "Dynamic programming II"
+        },
+        {
+          "week": 11,
+          "topic": "Dynamische Programmierung III",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week11-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week11-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            },
+            {
+              "label": "Übung 11",
+              "kind": "exercise",
+              "path": "sources/informatik2/weeks/week11-exercise.pdf",
+              "label_en": "Exercise 11"
+            }
+          ],
+          "links": [],
+          "topic_en": "Dynamic programming III"
+        },
+        {
+          "week": 12,
+          "topic": "Einführung Machine Learning",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week12-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week12-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [],
+          "topic_en": "Intro to machine learning"
+        },
+        {
+          "week": 13,
+          "topic": "Cross-Validation | Grid Search | Neuronale Netze",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week13-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week13-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [
+            {
+              "label": "TensorFlow Playground",
+              "url": "http://playground.tensorflow.org/",
+              "label_en": "TensorFlow Playground"
+            }
+          ],
+          "topic_en": "Cross-Validation | Grid Search | Neural Networks"
+        },
+        {
+          "week": 14,
+          "topic": "CNN | K-Means | PCA",
+          "files": [
+            {
+              "label": "Slides leer",
+              "kind": "slides-blank",
+              "path": "sources/informatik2/weeks/week14-slides-blank.pdf",
+              "label_en": "Blank slides"
+            },
+            {
+              "label": "Slides annotiert",
+              "kind": "slides-annotated",
+              "path": "sources/informatik2/weeks/week14-slides-annotated.pdf",
+              "label_en": "Annotated slides"
+            }
+          ],
+          "links": [
+            {
+              "label": "K-Means visualisiert",
+              "url": "https://www.naftaliharris.com/blog/visualizing-k-means-clustering/",
+              "label_en": "K-Means visualized"
+            },
+            {
+              "label": "LeetCode",
+              "url": "https://leetcode.com/problemset/all/",
+              "label_en": "LeetCode"
+            }
+          ],
+          "topic_en": "CNN | K-Means | PCA"
+        }
+      ],
+      "exams": [],
+      "title_en": "Computer Science II",
+      "order": 2,
+      "theme": "informatik",
+      "motif": "code",
+      "semesterStart": "2025-02-17",
+      "tagline": {
+        "de": "Python, Algorithmen, dynamische Programmierung und Machine Learning.",
+        "en": "Python, algorithms, dynamic programming and machine learning."
+      },
+      "description": {
+        "de": "Meine Übungsstunde zu Informatik II für D-MAVT: Python und NumPy, Sortieren und Laufzeit, Bäume und Heaps, dynamische Programmierung bis hin zu neuronalen Netzen.",
+        "en": "My Computer Science II exercise class for D-MAVT: Python and NumPy, sorting and runtime, trees and heaps, dynamic programming, all the way to neural networks."
+      },
+      "sessions": [
+        {
+          "type": "exercise",
+          "de": "Mittwoch 16–18 Uhr",
+          "en": "Wednesday 4–6 pm",
+          "room": "IFW C33"
+        },
+        {
+          "type": "studycenter",
+          "de": "Donnerstag 18:15–20:00 Uhr (ab der 3. Woche)",
+          "en": "Thursday 6:15–8:00 pm (from week 3)",
+          "room": "ML D28"
+        }
+      ],
+      "examCollection": "https://lec.inf.ethz.ch/past_exams/#exams",
+      "semester_en": "Spring 2025"
+    }
+  ],
+  "additional": [
+    {
+      "subject": "Chemie",
+      "author": "Quentin Türler",
+      "files": [
+        {
+          "label": "Mitschrift Vorlesung",
+          "kind": "notes",
+          "path": "sources/additional/chemie-mitschrift-tuerler.pdf",
+          "label_en": "Lecture notes"
+        }
+      ],
+      "subject_en": "Chemistry"
+    },
+    {
+      "subject": "Control Systems I",
+      "author": "Alexander Doongaji",
+      "files": [
+        {
+          "label": "Zusammenfassung",
+          "kind": "summary",
+          "path": "sources/additional/control-systems-1-zf-doongaji.pdf",
+          "label_en": "Summary"
+        }
+      ],
+      "subject_en": "Control Systems I"
+    },
+    {
+      "subject": "Introduction to Computing",
+      "author": "Alex Doongaji, Quentin Türler, Sebastien Steininger",
+      "files": [
+        {
+          "label": "Zusammenfassung",
+          "kind": "summary",
+          "path": "sources/additional/intro-computing-zf.pdf",
+          "label_en": "Summary"
+        }
+      ],
+      "subject_en": "Introduction to Computing"
+    }
+  ]
+}

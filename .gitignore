@@ -1,0 +1,17 @@
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Node (if a build step is ever added)
+node_modules/
+dist/
+
+
+# Private build questionnaire (personal answers, not for publishing)
+BUILD-BRIEF.md
+
+# Full-size originals (web versions live in images/)
+images/originals/

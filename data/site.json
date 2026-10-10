@@ -1,0 +1,47 @@
+{
+  "_help": "Edit this file (also works directly on github.com) to change live info. See CLAUDE.md -> 'Editing live info'.",
+
+  "announcement": {
+    "enabled": true,
+    "id": "2026-10-new-site",
+    "tone": "info",
+    "de": "Neue Website ist online: alle Unterlagen, schneller durchsuchbar.",
+    "en": "The new website is live: all materials, faster to search.",
+    "link": { "de": "Suche öffnen", "en": "Open search", "href": "#search" }
+  },
+
+  "nextSession": null,
+
+  "currentSemester": {
+    "label": { "de": "HS 2026", "en": "Fall 2026" },
+    "start": "2026-09-14",
+    "weeks": 14
+  },
+
+  "person": {
+    "name": "Quentin Türler",
+    "role": { "de": "Teaching Assistant · ETH Zürich, D-MAVT", "en": "Teaching Assistant · ETH Zurich, D-MAVT" },
+    "bio": {
+      "de": "Ich studiere Maschineningenieurwissenschaften im 1. Master-Semester an der ETH Zürich mit Fokus auf Robotik. Als Hilfsassistent habe ich die Übungsstunden in Analysis III und Informatik II geleitet und alle Unterlagen dazu selbst erstellt.",
+      "en": "I'm a first-semester Master's student in Mechanical Engineering at ETH Zurich, focusing on robotics. As a teaching assistant I led the exercise classes for Analysis III and Computer Science II and created all of the materials myself."
+    },
+    "portrait": "images/portrait.jpg"
+  },
+
+  "contact": {
+    "email": "qtuerler@ethz.ch",
+    "linkedin": "https://www.linkedin.com/in/quentin-t%C3%BCrler/",
+    "github": "https://github.com/quentincoded",
+    "youtube": "https://www.youtube.com/@quentinsvisuals",
+    "instagram": "https://www.instagram.com/q_.pictures/"
+  },
+
+  "feedbackUrl": "",
+
+  "repo": "quentincoded/teaching",
+
+  "analytics": {
+    "goatcounter": "xn--kbisites-n4a",
+    "ga4": ""
+  }
+}

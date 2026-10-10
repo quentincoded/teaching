@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Informatik II · Quentin Türler</title>
+<meta name="description" content="Informatik II (FS 2025), ETH Zürich D-MAVT: Slides, Notebooks, Zusammenfassungen und PVK-Skript.">
+<meta name="author" content="Quentin Türler">
+<meta name="theme-color" content="#f4f3ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#07080d" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Informatik II · Quentin Türler">
+<meta property="og:description" content="Informatik II (FS 2025), ETH Zürich D-MAVT: Slides, Notebooks, Zusammenfassungen und PVK-Skript.">
+<meta property="og:image" content="images/portrait.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<script>
+/* Boot: theme + language before first paint, unfold-transition flag, JS failsafe */
+(function(){var d=document.documentElement;d.classList.add('js');var t,l;
+try{t=localStorage.getItem('theme');l=localStorage.getItem('lang')}catch(e){}
+d.dataset.theme=t==='dark'||((!t||t==='system')&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';
+d.lang=l==='en'||l==='de'?l:((navigator.language||'de').slice(0,2).toLowerCase()==='en'?'en':'de');
+try{var x=sessionStorage.getItem('tx');if(x){var o=JSON.parse(x);if(Date.now()-o.t<8000){d.classList.add('tx-enter');d.style.setProperty('--tx-color',o.color)}else sessionStorage.removeItem('tx')}}catch(e){}
+setTimeout(function(){if(!d.classList.contains('ready')){d.classList.remove('js','tx-enter')}},4000)})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@400..700&family=JetBrains+Mono:wght@400..600&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+<script type="module" src="assets/js/pages/course.js"></script>
+</head>
+<body data-page="informatik" data-course="informatik2">
+<a class="skip-link" href="#main" data-i18n="skip">Zum Inhalt springen</a>
+<canvas class="bg-canvas" id="bg" aria-hidden="true"></canvas>
+<div class="bg-veil" aria-hidden="true"></div>
+<main id="main">
+  <div id="course"></div>
+  <noscript><p class="container" style="padding:140px 0 40px">Diese Seite braucht JavaScript. / This page needs JavaScript.</p></noscript>
+</main>
+</body>
+</html>
